@@ -10,7 +10,7 @@ Hooks.on("init", function (filepicker, arg1, arg2) {
         // Get the tile size ratio
         const tileRatio = (parseInt(li.closest("form").tileSize.value) || 100) / 100;
         const tileSize = Math.max(img.naturalWidth, img.naturalHeight) / tileRatio;
-        FilePicker.LAST_TILE_SIZE = tileRatio;
+        FilePicker.LAST_TILE_SIZE = tileRatio * 100;
         const ratio = tileSize / canvas.dimensions.size;
 
         // Set drag data
