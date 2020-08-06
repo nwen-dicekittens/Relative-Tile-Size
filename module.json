@@ -3,9 +3,13 @@
   "title": "Relative Tile Size",
   "description": "Set tiles' size relatively to grid size",
   "author": "Dicekittens",
-  "version": "0.0.1",
-  "minimumCoreVersion": "0.6.5",
+  "version": "1.0.0",
   "scripts": [
     "scripts/tilerelativesize.js"
-    ]
+  ],
+  "url": "https://github.com/nwen-dicekittens/Relative-Tile-Size",
+  "manifest": "https://github.com/nwen-dicekittens/Relative-Tile-Size/master/module.json",
+  "download": "https://github.com/nwen-dicekittens/Relative-Tile-Size/releases/latest/download/tile-relativesize-release.zip",
+  "minimumCoreVersion": "0.6.5",
+  "compatibleCoreVersion": "0.7.0"
 }
