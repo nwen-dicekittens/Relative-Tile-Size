@@ -11,7 +11,7 @@ jobs:
       shell: bash
       id: get-version
       run: echo "::set-output name=version::$(node ./.github/workflows/get-version.js)"
-    - run: zip -r ./tile-relativesize-release.zip module.json scripts/
+    - run: zip -r ./tile-relativesize.zip module.json scripts/
     - name: Create Release
       id: create_versioned_release
       uses: ncipollo/release-action@v1
@@ -22,5 +22,5 @@ jobs:
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
-        artifacts: './module.json,./tile-relativesize-release.zip'
+        artifacts: './module.json,./tile-relativesize.zip'
         tag: latest

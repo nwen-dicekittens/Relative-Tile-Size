@@ -8,8 +8,8 @@
     "scripts/tilerelativesize.js"
   ],
   "url": "https://github.com/nwen-dicekittens/Relative-Tile-Size",
-  "manifest": "https://github.com/nwen-dicekittens/Relative-Tile-Size/master/module.json",
-  "download": "https://github.com/nwen-dicekittens/Relative-Tile-Size/releases/latest/download/tile-relativesize-release.zip",
+  "manifest": "https://github.com/nwen-dicekittens/Relative-Tile-Size/raw/master/module.json",
+  "download": "https://github.com/nwen-dicekittens/Relative-Tile-Size/releases/latest/download/tile-relativesize.zip",
   "minimumCoreVersion": "0.6.5",
   "compatibleCoreVersion": "0.7.0"
 }
